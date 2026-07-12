@@ -14,9 +14,9 @@ end
 --monitor text display
 
 function draw_text(mon, x, y, text, tCol, bCol)
-    mon.monitor.setBackgroundColor(bCol)
-    mon.monitor.setTextColor(tCol)
-    mon.monitor.setCursorPos(x, y)
+    mon.setBackgroundColor(bCol)
+    mon.setTextColor(tCol)
+    mon.setCursorPos(x, y)
     mon.write(text)
 end
 
