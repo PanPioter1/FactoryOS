@@ -9,13 +9,13 @@ fs.makeDir("FactoryOS")
 lib = http.get(libURL)
 libFile = lib.readAll()
 
-local file1 = fs.open("FactoryOS/FactoryOSMoniPeriph.lua", "w")
+local file1 = fs.open("FactoryOS/FactoryOSMoniPeriph", "w")
 file1.write(libFile)
 file1.close()
 
-main = http.get(mainURL)
-mainFile = main.readAll()
+startup = http.get(mainURL)
+startupFile = startup.readAll()
 
-local file2 = fs.open("FactoryOS/FactoryOSMain.lua", "w")
-file2.write(mainFile)
+local file2 = fs.open("FactoryOS/startup", "w")
+file2.write(startupFile)
 file2.close()
