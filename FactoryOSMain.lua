@@ -1,11 +1,18 @@
+--function load
+
 os.loadAPI("FactoryOS/FactoryOSMoniPeriph")
 
+--ini vars
 local mon, monitor, monX, monY
 
-monitor = FactoryOSMoniPeriph.periphSearch("monitor")
+--shearch for monitor
+monitor = peripheral.find("monitor")
 
 if monitor == null then
     error("No monitor found")
 end
+
+--monitor setup
 FactoryOSMoniPeriph.clear(monitor)
-FactoryOSMoniPeriph.draw_text(monitor, 1, 1, "FactoryOS", colors.white, colors.blue)
+monitor.backgroundColor(colors.blue)
+FactoryOSMoniPeriph.draw_text(monitor, 1, 1, "FactoryOS", colors.black, colors.blue)
