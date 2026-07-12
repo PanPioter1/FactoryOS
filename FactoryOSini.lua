@@ -1,7 +1,7 @@
 --ini file for FactoryOS
 
-local libURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/blob/main/FactoryOSMoniPeriph.lua"
-local mainURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/blob/main/FactoryOSMain.lua"
+local libURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/main/FactoryOSMoniPeriph.lua"
+local mainURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/main/FactoryOSMain.lua"
 local libFile, mainFile
 
 fs.makeDir("FactoryOS")
