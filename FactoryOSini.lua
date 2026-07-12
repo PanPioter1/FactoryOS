@@ -2,7 +2,8 @@
 
 local libURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/main/FactoryOSMoniPeriph.lua"
 local mainURL = "https://raw.githubusercontent.com/PanPioter1/FactoryOS/main/FactoryOSMain.lua"
-local libFile, mainFile
+local lib, startup
+local libFile, startupFile
 
 fs.makeDir("FactoryOS")
 
