@@ -8,4 +8,4 @@ if monitor == null then
     error("No monitor found")
 end
 
-FactoryOSMoniPeriph.draw_text(monitor, 1, 1, "FactoryOS", colors.white, colors.black)
+FactoryOSMoniPeriph.draw_text(monitor, 1, 1, "FactoryOS", colors.white, colors.blue)
