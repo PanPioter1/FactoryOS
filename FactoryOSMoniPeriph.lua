@@ -4,7 +4,7 @@ function periphSearch(type)
     local names = peripheral.getNames()
     local i, name
     for i, name in pairs(names) do
-        if peripherial.getType(name) == tyme then
+        if peripheral.getType(name) == type then
             return peripheral.wrap(name)
         end
     end
