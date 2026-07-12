@@ -14,5 +14,4 @@ end
 
 --monitor setup
 FactoryOSMoniPeriph.clear(monitor)
-monitor.backgroundColor(colors.blue)
 FactoryOSMoniPeriph.draw_text(monitor, 1, 1, "FactoryOS", colors.black, colors.blue)
